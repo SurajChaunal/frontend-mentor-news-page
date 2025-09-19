@@ -216,7 +216,7 @@ body {
 }
 .section__card-heading {
   font-size: var(--font-size--lg);
-  color: var(--color-soft-orange);
+  color: var(--color-soft-red);
   margin-bottom: 2rem;
 }
 .section__card-subheading {

@@ -8,7 +8,7 @@
   --color-grayish-blue: hsl(233, 8%, 79%);
   --color-dark-grayish-blue: hsl(236, 13%, 42%);
   --color-very-dark-blue: hsl(240, 100%, 5%);
-  --font-size--sm: 1.4rem;
+  --font-size--sm: 1.6rem;
   --font-size--md: 1.8rem;
   --font-size--lg: 3.6rem;
   --font-size--xl: 4.8rem;
@@ -23,7 +23,7 @@
 }
 
 html {
-  font-size: clamp(40%, 1vw, 62.5%);
+  font-size: clamp(40%, 0.9vw, 62.5%);
 }
 body {
   font-family: "Inter", sans-serif;
@@ -37,6 +37,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 3rem;
+  line-height: 2.4rem;
 }
 .container {
   display: flex;
@@ -44,7 +45,7 @@ body {
   gap: 4rem;
   justify-content: center;
   align-items: center;
-  max-width: 100rem;
+  max-width: 120rem;
   padding: 2rem;
   position: relative;
   overflow: hidden;
@@ -117,6 +118,7 @@ body {
   font-size: var(--font-size--xl);
   font-weight: var(--font-wgt-bold);
   padding: 1rem;
+  line-height: 4.8rem;
 }
 .hero__content-box {
   display: flex;
@@ -136,6 +138,7 @@ body {
   letter-spacing: 2px;
   transition: color 0.2s, background-color 0.3s;
   cursor: pointer;
+  margin-top: auto;
 }
 .btn--hero:hover,
 .btn--hero:active {
@@ -144,7 +147,6 @@ body {
 }
 .hero__content-desc {
   font-size: var(--font-size--sm);
-  line-height: 2rem;
 }
 /*********** aside section ***********/
 .aside {
@@ -210,12 +212,13 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+  max-width: 15rem;
   aspect-ratio: 1/ 1;
 }
 .section__card-heading {
   font-size: var(--font-size--lg);
   color: var(--color-soft-orange);
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .section__card-subheading {
   font-size: var(--font-size--md);
@@ -232,7 +235,7 @@ body {
 }
 
 /*********** media queries ***********/
-@media (max-width: 650px) {
+@media (max-width: 800px) {
   body.no-scroll {
     overflow: hidden;
   }

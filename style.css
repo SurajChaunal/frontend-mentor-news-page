@@ -23,7 +23,7 @@
 }
 
 html {
-  font-size: clamp(40%, 0.9vw, 62.5%);
+  font-size: clamp(50%, 0.9vw, 62.5%);
 }
 body {
   font-family: "Inter", sans-serif;
@@ -224,7 +224,8 @@ body {
   font-size: var(--font-size--md);
   margin-bottom: 1rem;
   transition: color 0.2s ease-out;
-  font-weight: var(--font-wgt-strong);
+  font-weight: var(--font-wgt-bold);
+  color: var(--color-very-dark-blue);
 }
 .section__card-subheading:hover {
   color: var(--color-soft-orange);

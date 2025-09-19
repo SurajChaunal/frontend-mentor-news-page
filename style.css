@@ -23,7 +23,7 @@
 }
 
 html {
-  font-size: clamp(50%, 0.9vw, 62.5%);
+  font-size: clamp(45%, 0.9vw, 62.5%);
 }
 body {
   font-family: "Inter", sans-serif;
@@ -45,7 +45,7 @@ body {
   gap: 4rem;
   justify-content: center;
   align-items: center;
-  max-width: 120rem;
+  max-width: 110rem;
   padding: 2rem;
   position: relative;
   overflow: hidden;
@@ -173,7 +173,7 @@ body {
   transition: color 0.2s ease-in;
 }
 .aside__card-heading:hover,
-.aside__card-heading:hover {
+.aside__card-heading:active {
   color: var(--color-soft-orange);
   cursor: pointer;
 }
@@ -195,10 +195,9 @@ body {
   display: flex;
   justify-items: flex-start;
   gap: 1rem;
-}
-.section__card {
   padding: 1rem;
 }
+
 .section__card-img--1 {
   background: url(./assets/images/image-retro-pcs.jpg);
 }
